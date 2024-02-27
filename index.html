@@ -5,21 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="styles.css" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Riot&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <div id="background-image-container">
-            <!-- <img
-                src="/AdobeStock_185573214.jpeg"
-                alt=""
-                id="background-image"
-                width="auto"
-                height="auto"
-            /> -->
-        </div>
         <div id="login-container">
             <div id="login-controls">
-                <form action="" id="login-form">
-                    <div class="input-container">
+                <form action="" id="login-form" class="form-text">
+                    <div class="input-container inner-bits">
                         <label
                             for="first-name"
                             id="first-name-label"
@@ -28,7 +32,7 @@
                         </label>
                         <input type="text" id="first-name" class="form-input" />
                     </div>
-                    <div class="input-container">
+                    <div class="input-container inner-bits">
                         <label
                             for="last-name"
                             id="last-name-label"
@@ -37,13 +41,13 @@
                         </label>
                         <input type="text" id="last-name" class="form-input" />
                     </div>
-                    <div class="input-container">
+                    <div class="input-container inner-bits">
                         <label for="email" id="email-label" class="input-label"
                             >Email
                         </label>
                         <input type="text" id="email" class="form-input" />
                     </div>
-                    <div class="input-container">
+                    <div class="input-container inner-bits">
                         <label
                             for="phone-number"
                             id="phone-number-label"
@@ -56,7 +60,7 @@
                             class="form-input"
                         />
                     </div>
-                    <div class="input-container">
+                    <div class="input-container inner-bits">
                         <label
                             for="password"
                             id="password-label"
@@ -65,7 +69,7 @@
                         </label>
                         <input type="text" id="password" class="form-input" />
                     </div>
-                    <div class="input-container">
+                    <div class="input-container inner-bits">
                         <label
                             for="password-confirm"
                             id="password-confirm-label"
@@ -79,10 +83,12 @@
                         />
                     </div>
                 </form>
-                <div id="create-account-button" class="button">Submit</div>
-                <div id="already-have-account">
-                    Already have an account? <a href="">Log in</a>
-                </div>
+            </div>
+            <div id="create-account-button" class="button inner-bits">
+                Submit
+            </div>
+            <div id="already-have-account" class="inner-bits">
+                Already have an account? <a href="">Log in</a>
             </div>
         </div>
         <script src="scripts.js"></script>
